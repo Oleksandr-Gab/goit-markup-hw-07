@@ -1,0 +1,85 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+  .tablet-container {
+    max-width: 100%;
+  }
+
+  .mini-container {
+    max-width: 100%;
+  }
+
+  .header-list-adress {
+    display: flex;
+    gap: 40px;
+  }
+  .header {
+    padding-bottom: 28px;
+  }
+
+  .header-list {
+    margin-left: 76px;
+  }
+  .hero-heading {
+    margin-bottom: 48px;
+  }
+  .feature {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .feature-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+  .feature-picture {
+    display: flex;
+  }
+  .feature-svg {
+    display: flex;
+  }
+
+  .location {
+    display: flex;
+    padding-bottom: 120px;
+  }
+  .tem {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .tem-list {
+  }
+  .tem-item {
+    width: calc((100% - 3 * 24px) / 4);
+  }
+
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+
+  .customers-item {
+    width: calc((100% - 5 * 24px) / 6);
+  }
+  .footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .footer-container {
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 0;
+    justify-content: left;
+  }
+  .footer-title {
+    margin-right: 120px;
+  }
+
+  .footer-social {
+    margin-right: 80px;
+  }
+
+  .footer-text {
+    width: 264px;
+  }
+}

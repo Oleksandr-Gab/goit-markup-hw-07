@@ -1,0 +1,29 @@
+@media screen and (min-width: 428px) {
+  .hero {
+    background-image: linear-gradient(
+        var(--hero-background-color),
+        var(--hero-background-color)
+      ),
+      url(../images/fon-hero-tablet.jpg);
+  }
+  .hero-heading {
+    font-size: 36px;
+  }
+  .mobile-menu-tel {
+    font-size: 36px;
+  }
+  .menu-soc-list {
+    gap: 56px;
+  }
+
+  .footer-fiel {
+    width: 398px;
+  }
+
+  .modal {
+    width: 396px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
