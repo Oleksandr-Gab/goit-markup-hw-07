@@ -30,10 +30,23 @@
         var(--hero-background-color),
         var(--hero-background-color)
       ),
-      url(../images/fon-hero.jpg);
+      url(../images/fon-hero-desctop.jpg);
     padding-bottom: 188px;
     padding-top: 188px;
   }
+
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          var(--hero-background-color),
+          var(--hero-background-color)
+        ),
+        url(../images/fon-hero-desctop\ 2x.jpg);
+    }
+  }
+
   .hero-heading {
     max-width: 496px;
     font-size: 56px;
@@ -116,5 +129,40 @@
 
   .footer-fiel {
     width: 264px;
+  }
+  .card {
+    padding-top: 64px;
+    padding-bottom: 96px;
+  }
+  .card-container {
+    max-width: 738px;
+  }
+
+  .filter-list {
+    justify-content: center;
+    margin-bottom: 64px;
+  }
+  .filter-btn {
+    padding: 12px 24px;
+  }
+
+  .card-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    row-gap: 72px;
+    column-gap: 24px;
+    justify-content: center;
+    width: 100%;
+  }
+  .card-item {
+    width: calc((100% - 24px) / 2);
+  }
+
+  .card-item:last-child {
+    margin-right: auto;
+  }
+  .card-overley {
+    width: 360px;
+    height: 300px;
   }
 }

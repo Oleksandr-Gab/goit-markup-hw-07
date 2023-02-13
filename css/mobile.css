@@ -6,6 +6,18 @@
       ),
       url(../images/fon-hero-tablet.jpg);
   }
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(
+          var(--hero-background-color),
+          var(--hero-background-color)
+        ),
+        url(../images/fon-hero-tablet\ 2x.jpg);
+    }
+  }
+
   .hero-heading {
     font-size: 36px;
   }
@@ -18,6 +30,7 @@
 
   .footer-fiel {
     width: 398px;
+    margin-right: 24px;
   }
 
   .modal {
@@ -25,5 +38,9 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+  }
+
+  .filter-list {
+    justify-content: center;
   }
 }
