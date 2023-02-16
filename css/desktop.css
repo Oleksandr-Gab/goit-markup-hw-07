@@ -2,9 +2,6 @@
   .container {
     width: 1158px;
   }
-  .tablet-container {
-    max-width: 100%;
-  }
 
   .mini-container {
     max-width: 100%;

@@ -199,11 +199,10 @@ body {
 
 .menu-container {
   height: 100%;
-  max-width: 428px;
   padding: 40px;
   display: flex;
   flex-direction: column;
-  margin-left: auto;
+  margin-right: auto;
   overflow-y: auto;
 }
 
@@ -272,6 +271,7 @@ body {
 
 .mobile-menu-tel {
   font-weight: 600;
+  font-style: normal;
   font-size: 25px;
   line-height: 1.11;
   color: currentColor;
@@ -279,6 +279,7 @@ body {
 
 .mobile-menu-mailo {
   font-weight: 500;
+  font-style: normal;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;

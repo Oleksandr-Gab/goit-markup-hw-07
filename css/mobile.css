@@ -1,4 +1,7 @@
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 480px) {
+  .container {
+    width: 428px;
+  }
   .hero {
     background-image: linear-gradient(
         var(--hero-background-color),
